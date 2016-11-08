@@ -1,0 +1,18 @@
+// difference: for inc/dec opacity in percent.
+[
+    { "caption": "SublimeTextTrans: Disable", "command": "set_opacity_in_percent", "args": { "percent": 100 } },
+    {
+        "caption": "SublimeTextTrans: Increase 2%",
+        "command": "set_opacity_in_percent_scroll",
+        "args": { "scroll": "up" }
+    },
+    {
+        "caption": "SublimeTextTrans: Decrease 2%",
+        "command": "set_opacity_in_percent_scroll",
+        "args": { "scroll": "down" }
+    },
+    {
+        "caption": "SublimeTextTrans: Set Opacity in Percent",
+        "command": "set_opacity_in_percent_commandline"
+    }
+]

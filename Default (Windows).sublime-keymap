@@ -1,8 +1,20 @@
-[  
+[
 { "keys": ["ctrl+shift+1"], "command": "set_opacity"},
 { "keys": ["ctrl+shift+2"], "command": "set_opacity_nine" },
 { "keys": ["ctrl+shift+3"], "command": "set_opacity_eight" },
 { "keys": ["ctrl+shift+4"], "command": "set_opacity_seven" },
 { "keys": ["ctrl+shift+5"], "command": "set_opacity_six" },
-{ "keys": ["ctrl+shift+6"], "command": "set_opacity_half" }  
+{ "keys": ["ctrl+shift+6"], "command": "set_opacity_half" },
+
+// difference: for inc/dec opacity in percent.
+{
+	"keys": ["ctrl+shift+pageup"],
+	"command": "set_opacity_in_percent_scroll",
+	"args": { "scroll": "up" }
+},
+{
+	"keys": ["ctrl+shift+pagedown"],
+	"command": "set_opacity_in_percent_scroll",
+	"args": { "scroll": "down" }
+}
 ]

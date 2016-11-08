@@ -8,6 +8,20 @@
       "command": "sub_trans_about"
     },
     { "caption": "-" },
+    // difference: for inc/dec opacity in percent.
+    {
+      "id": "sublimetranssubmenuscrollup",
+      "caption": "Increase 2%",
+      "command": "set_opacity_in_percent_scroll",
+      "args": { "scroll": "up" }
+    },
+    {
+      "id": "sublimetranssubmenuscrolldown",
+      "caption": "Decrease 2%",
+      "command": "set_opacity_in_percent_scroll",
+      "args": { "scroll": "down" }
+    },
+    { "caption": "-" },
     { "id": "sublimetranssubmenunine", "caption": "Level 5", "command": "set_opacity_half", "checkbox": true },
     { "id": "sublimetranssubmenueight", "caption": "Level 4", "command": "set_opacity_six", "checkbox": true },
     { "id": "sublimetranssubmenuseven", "caption": "Level 3", "command": "set_opacity_seven", "checkbox": true },

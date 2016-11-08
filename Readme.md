@@ -39,9 +39,25 @@ There are three methods to set transparency:
 ![Snapshot]
 (https://github.com/vhanla/SublimeTextTrans/raw/master/snapshot.png?raw=true "Snapshot")
 
+**Differences from the original version**:
+
+4. Ctrl+Shift+[Pageup, Pagedown] to increase/decrease 2% of the opacity.
+5. Use Command Palette to operate it.
+
+![Snapshot]
+(https://github.com/BillySilver/SublimeTextTrans/raw/master/snapshot_161109_1.png?raw=true "Snapshot")
+![Snapshot]
+(https://github.com/BillySilver/SublimeTextTrans/raw/master/snapshot_161109_2.png?raw=true "Snapshot")
+
 Changelog:
 ----------
-- 15-24-2015
+- 11-09-2016
+
+ - Forked by BillySilver.
+ - Add key maps to increase/decrease the opacity directly.
+ - Support for Command Palette.
+
+- 12-24-2015
 
  - Onload transparency (95% working due to ST API limitations)
  - Remember chosen transparency level
@@ -61,7 +77,7 @@ There you can modify the transparency levels, by adding the following and adjust
     {
 
     	// If you like to have a different transparency level
-    	// modify this array of options in your user preferences 
+    	// modify this array of options in your user preferences
     	// i.e. just add (copy/paste) this array and modify at wish
     	// IMPORTANT: Level of opacity varies from 0 to 255
     	// 0 = Totally transparent, 255 = Fully opaque
