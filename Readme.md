@@ -16,11 +16,11 @@ You may install `SublimeTextTrans` via git with the below commands:
 
 For Sublime Installed:
 
-    git clone https://github.com/vhanla/SublimeTextTrans.git "%APPDATA%\Sublime Text 2\Packages\SublimeTextTrans"
+    git clone https://github.com/BillySilver/SublimeTextTrans.git "%APPDATA%\Sublime Text 3\Packages\SublimeTextTrans"
 
 For Sublime Portable:
 
-    git clone https://github.com/vhanla/SublimeTextTrans.git "C:\SUBLIME2\Data\Packages\SublimeTextTrans""
+    git clone https://github.com/BillySilver/SublimeTextTrans.git "C:\SUBLIME3\Data\Packages\SublimeTextTrans""
 
 *Where* ***C:\Sublime*** *is the portable's path. So change accordingly.*
 
@@ -36,18 +36,15 @@ There are three methods to set transparency:
 2. You can use the hotkeys Ctrl+Shift+[1,2,3,4,5,6]
 3. Or you can right click and use the contextual menu
 
-![Snapshot]
-(https://github.com/vhanla/SublimeTextTrans/raw/master/snapshot.png?raw=true "Snapshot")
+![Snapshot](snapshot.png?raw=true "Snapshot")
 
 **Differences from the original version**:
 
 4. Ctrl+Shift+[Pageup, Pagedown] to increase/decrease 2% of the opacity.
 5. Use Command Palette to operate it.
 
-![Snapshot]
-(https://github.com/BillySilver/SublimeTextTrans/raw/master/snapshot_161109_1.png?raw=true "Snapshot")
-![Snapshot]
-(https://github.com/BillySilver/SublimeTextTrans/raw/master/snapshot_161109_2.png?raw=true "Snapshot")
+![Snapshot1](snapshot_161109_1.png?raw=true "Snapshot1")
+![Snapshot2](snapshot_161109_2.png?raw=true "Snapshot2")
 
 Changelog:
 ----------
